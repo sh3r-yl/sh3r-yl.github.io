@@ -1,0 +1,7 @@
+body { background: url("../images/background.png") 50% 0 no-repeat; background-size: cover; background-color: #eaf6ff; }
+
+#main-wrapper { padding: 100px 0; }
+
+.logo { width: 500px; }
+
+.welcome { border: 4px solid #4e5a62; padding: 30px; font-size: 60px; color: #4e5a62; text-transform: uppercase; letter-spacing: 3px; text-align: center; }
