@@ -15,27 +15,38 @@
   <link rel="apple-touch-icon-precomposed" href="assets/images/favicon-big.png">
 
   <!-- STYLESHEET -->
-  <link rel="stylesheet" href="assets/css/framework.css">
   <link rel="stylesheet" href="assets/css/app.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Nunito:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
 
 </head>
 <body>
 <div id="main-wrapper">
-  <section>
-    <h-row>
-      <h-column class="large-4 centered">
+  <section class="logo">
+    <div class="grid-center-noBottom">
+      <div class="col">
         <a href="/"><img src="assets/images/logo.svg"></a>
-      </h-column>
-    </h-row>
-
-    <h-row>
-      <h-column class="large-6 centered">
-        <h1 class="welcome">Welcome</h1>
-      </h-column>
-    </h-row>
+      </div>
+    </div>
   </section>
-  
+
+  <section>
+    <div class="grid-center">
+      <div class="col-6">
+        <h1 class="welcome">Welcome</h1>
+      </div>
+    </div>
+  </section>
+
+  <section class="links">
+    <div class="grid-center">
+      <a href="https://www.twitch.tv/sh3r_yl" class="links__item linkedin" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+
+      <a href="https://www.linkedin.com/in/sherylyeoxe/" class="links__item twitch" target="_blank"><i class="fab fa-twitch"></i></a>
+    </div>
+  </section>
 
   <div id="footer-push"></div>
 </div>
